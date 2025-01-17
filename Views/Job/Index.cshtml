@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<JobSearch.Models.JobModel>
+
+<h1>Jobb ansökningar</h1>
+<p>
+    <a asp-action="AddJob">Lägg till ny jobbansökning</a>
+</p>
+<table class="table">
+    <thead>
+        <th>ID</th>
+        <th>Företag</th>
+        <th>Position</th>
+        <th>Plats</th>
+        <th>Datum</th>
+        <th></th>
+    </thead>
+    @{
+        foreach(var job in Model){
+            <tr>
+                <td>@job.Id</td>
+                <td>@job.Company</td>
+                <td>@job.Position</td>
+                <td>@job.Location</td>
+                <td>@job.Date</td>
+                <td>@Html.ActionLink("Edit", "EditJob", new { id=@job.Id})</td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id }})</td>
+            </tr>
+        }
+    }
+    
+</table>
+
+<p>Antal sökta jobb: @ViewBag.nrOfJobs</p>

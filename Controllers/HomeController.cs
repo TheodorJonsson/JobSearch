@@ -17,8 +17,8 @@ namespace JobSearch.Controllers
         {
             return View();
         }
-        [Route("/Privacy")]
-        public IActionResult Privacy()
+        [Route("/About")]
+        public IActionResult About()
         {
             return View();
         }
