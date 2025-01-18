@@ -12,12 +12,13 @@
 </p>
 <table class="table">
     <thead>
-        <th>ID</th>
-        <th>Företag</th>
-        <th>Position</th>
-        <th>Plats</th>
-        <th>Datum</th>
-        <th></th>
+        <td>ID</td>
+        <td>Företag</td>
+        <td>Position</td>
+        <td>Plats</td>
+        <td>Datum</td>
+        <td></td>
+        <td></td>
     </thead>
     @{
         foreach(var job in Model){
@@ -28,7 +29,7 @@
                 <td>@job.Location</td>
                 <td>@job.Date</td>
                 <td>@Html.ActionLink("Edit", "EditJob", new { id=@job.Id})</td>
-                <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id }})</td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
             </tr>
         }
     }

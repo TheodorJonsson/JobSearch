@@ -60,7 +60,5 @@ namespace JobSearch.Controllers
             return Redirect("/Job");
         }
 
-
-
     }
 }
