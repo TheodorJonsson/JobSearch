@@ -1,14 +1,12 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Jobs";
 }
 
 @model List<JobSearch.Models.JobModel>
 
-<h1>Jobb ansökningar</h1>
+<h1>Job Applications</h1>
 <p>
-    <a asp-action="AddJob">Lägg till ny jobbansökning</a>
+    <a asp-action="AddJob">Add new job application</a>
 </p>
 <table class="table">
     <thead>
@@ -38,4 +36,4 @@
     
 </table>
 
-<p>Antal sökta jobb: @ViewBag.nrOfJobs</p>
+<p>Amount of job applications: @ViewBag.nrOfJobs</p>

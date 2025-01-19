@@ -22,7 +22,7 @@ namespace JobSearch.Controllers
         [HttpGet]
         public IActionResult AddJob()
         {
-            JobModel job = new JobModel() { Id = 2, Company = "Advania", Position = "Advania Traineeprogram",Location = "Umeå", Date = DateOnly.FromDateTime(DateTime.Now)};
+            JobModel job = new JobModel() { Id = 2, Company = "Luleå Tekniska Universitet", Position = "Databastekniker",Location = "Luleå", Date = DateOnly.FromDateTime(DateTime.Now)};
 
             return View(job);
         }
