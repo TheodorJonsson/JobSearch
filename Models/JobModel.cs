@@ -9,7 +9,7 @@
         public string? Description { get; set; }
         public DateOnly Date { get; set; }
 
-        public override bool Equals(object? obj)
+       /* public override bool Equals(object? obj)
         {
             if(obj is JobModel b)
             {
@@ -19,6 +19,6 @@
             {
                 return false;
             }
-        }
+        }*/
     }
 }

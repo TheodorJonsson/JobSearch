@@ -8,7 +8,7 @@ namespace JobSearch.Controllers
 
         static IList<JobModel> jobList = new List<JobModel>
         {
-            new JobModel { Id = 1, Company = "BAE Systems AB", Position = "Systemutvecklare med fokus på automatiserade tester", Location = "Örnsköldsvik", Date = DateOnly.FromDateTime(DateTime.Now) }
+            new JobModel { Id = 1, Company = "Umeå Universitet", Position = "Systemutvecklare", Location = "Umeå", Date = DateOnly.FromDateTime(DateTime.Now) }
         };
         [Route("/Job")]
         public IActionResult Index()
@@ -37,16 +37,21 @@ namespace JobSearch.Controllers
             return Redirect("/Job");
         }
 
-        //[Route("/Job/EditJob")]
+        [Route("/Job/EditJob")]
         [Route("/Job/EditJob/{id}")]
         [HttpGet]
         public IActionResult EditJob(int id)
         {
             var job = jobList.Where(j => j.Id == id).FirstOrDefault();
-
+            if (job == null)
+            {
+                return NotFound();
+            }
             return View(job);
         }
 
+        [Route("/Job/EditJob")]
+        [Route("/Job/EditJob/{id}")]
         [HttpPost]
         public IActionResult EditJob(JobModel job)
         {
