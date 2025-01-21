@@ -34,3 +34,7 @@ body {
     font-size: 18px;
     color: red;
 }
+
+td {
+    vertical-align: middle;
+}

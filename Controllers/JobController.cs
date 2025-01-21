@@ -140,7 +140,8 @@ namespace JobSearch.Controllers
         public IActionResult EditJob(JobModel job)
         {
 
-            
+            // Checks if the date is either today or in the past
+            // cannot enter a date that is in the future
             if(job.Date > DateOnly.FromDateTime(DateTime.Now))
             {
                 String url = "" + job.Id;
@@ -180,6 +181,28 @@ namespace JobSearch.Controllers
             return Redirect("/Job");
         }
 
+
+
+        // Deletes the selected job from the list
+        [Route("/Job/DeleteJob/{id}")]
+        public IActionResult DeleteJob(int id)
+        {
+            var updatedJob = jobList.Where(j => j.Id == id).FirstOrDefault();
+            if (updatedJob != null)
+            {
+                jobList.Remove(updatedJob);
+            }
+
+            // Check with the job item from the denied list
+            var deniedUpdatedJob = deniedList.Where(j => j.Id == id).FirstOrDefault();
+            if (deniedUpdatedJob != null)
+            {
+                deniedList.Remove(deniedUpdatedJob);
+            }
+            UpdateSession();
+            return Redirect("/Job");
+        }
+     
 
         // Helper method to update session variables
         private void UpdateSession()

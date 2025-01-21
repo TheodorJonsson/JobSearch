@@ -4,11 +4,13 @@
     var deniedList = ViewBag.deniedList as List<JobSearch.Models.JobModel>;
 }
 
+<link rel="stylesheet" href="~/JobSearch.styles.css" asp-append-version="true" />
+
 <h1>Current Job Applications</h1>
 <p>
     <a asp-action="AddJob">Add new job application</a>
 </p>
-<table class="table">
+<table class="table" >
     <thead>
         <tr>
             <td>ID</td>
@@ -25,7 +27,7 @@
         if(jobList != null){
             foreach (var job in jobList)
             {
-                <tr>
+                <tr >
                     <td>@job.Id</td>
                     <td>@job.Company</td>
                     <td>@job.Position</td>
@@ -39,9 +41,14 @@
                             }
                         }
                     </td>
-                    
-                    <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id })</td>
-                    <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
+
+                    <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id }, new { @class = "btn btn-primary" })</td>
+                    <td> 
+                        <!--<btn class="btn btn-danger"-->
+                        <!-- onclick="return confirm('Are you sure you want to delete @job.Position at @job.Company')">"-->
+                        @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')"})
+                        <!-- </btn>-->
+                    </td>
                 </tr>
             }
         }
@@ -87,8 +94,15 @@
                                 }
                             }
                         </td>
-                            <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id })</td>
-                            <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
+                        <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id }, new { @class = "btn btn-primary" })</td>
+                        <td>
+                            <!--<btn class="btn btn-danger"-->
+                            <!-- onclick="return confirm('Are you sure you want to delete @job.Position at @job.Company')">"-->
+                            @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')" })
+                            <!-- </btn>-->
+                        </td>
+                            
+                        
                         </tr>
                     }
             }

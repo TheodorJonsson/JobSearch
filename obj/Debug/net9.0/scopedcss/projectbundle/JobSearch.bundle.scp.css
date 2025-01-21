@@ -16,7 +16,9 @@ a[b-yywmpnv0iw] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+  margin: 0px 0px 0px 0px;
 }
+
 
 .nav-pills .nav-link.active[b-yywmpnv0iw], .nav-pills .show > .nav-link[b-yywmpnv0iw] {
   color: #fff;
@@ -47,3 +49,5 @@ button.accept-policy[b-yywmpnv0iw] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+

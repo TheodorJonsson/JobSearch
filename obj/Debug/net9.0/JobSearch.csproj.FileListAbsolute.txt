@@ -43,7 +43,6 @@ E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\4kuldaqbo
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\y8onx3rr5z-j5mq2jizvt.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\rmeixto4n8-06098lyss8.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\44nyfhw4mv-nvvlpmu67g.gz
-E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\x94eh7a3yx-s35ty4nyc5.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\hzoo4wkw7l-pj5nd1wqec.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\m428227oyg-46ein0sx1k.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\ecct4tehtb-v0zj4ognzu.gz
@@ -78,8 +77,6 @@ E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\ytx9k1kkb
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\zpxtakf0q1-muycvpuwrr.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\tinf0lu0n8-87fc7y1x7t.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\u4eg48w5pb-mlv21k5csn.gz
-E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\8sr53x16re-xvtlsbcqb3.gz
-E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\i5rfdp8vzf-xvtlsbcqb3.gz
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\staticwebassets.build.json
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\staticwebassets.development.json
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -283,4 +280,7 @@ E:\skola\Databasteknik\JobSearch\JobSearch\bin\Debug\net9.0\tr\Microsoft.CodeAna
 E:\skola\Databasteknik\JobSearch\JobSearch\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\skola\Databasteknik\JobSearch\JobSearch\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\JobSearch.csproj.Up2Date
-E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\j8ar61qglm-9vf63zllxq.gz
+E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\x94eh7a3yx-0vk7hohlca.gz
+E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\j8ar61qglm-yvt80ylvkf.gz
+E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\8sr53x16re-uvtnjtdjav.gz
+E:\skola\Databasteknik\JobSearch\JobSearch\obj\Debug\net9.0\compressed\i5rfdp8vzf-uvtnjtdjav.gz

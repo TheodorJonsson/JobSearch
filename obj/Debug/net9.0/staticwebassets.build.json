@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VrgtrfjalD4+dL10u1ryUv/5gYUMgN92sUcKLkhh9vg=",
+  "Hash": "WIFL8FiLpmj2vgzCGdxlwhoZa1/pb1+69yAKJKIFKvo=",
   "Source": "JobSearch",
   "BasePath": "_content/JobSearch",
   "Mode": "Default",
@@ -227,12 +227,12 @@
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-xvtlsbcqb3.gz",
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-uvtnjtdjav.gz",
       "SourceId": "JobSearch",
       "SourceType": "Computed",
       "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/JobSearch",
-      "RelativePath": "JobSearch#[.{fingerprint=xvtlsbcqb3}]?.styles.css.gz",
+      "RelativePath": "JobSearch#[.{fingerprint=uvtnjtdjav}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -241,8 +241,8 @@
       "RelatedAsset": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\bundle\\JobSearch.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n7db1cy0wn",
-      "Integrity": "XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=",
+      "Fingerprint": "xwa0n0gipi",
+      "Integrity": "QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\bundle\\JobSearch.styles.css"
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-xvtlsbcqb3.gz",
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-uvtnjtdjav.gz",
       "SourceId": "JobSearch",
       "SourceType": "Computed",
       "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/JobSearch",
-      "RelativePath": "JobSearch#[.{fingerprint=xvtlsbcqb3}]!.bundle.scp.css.gz",
+      "RelativePath": "JobSearch#[.{fingerprint=uvtnjtdjav}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\JobSearch.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n7db1cy0wn",
-      "Integrity": "XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=",
+      "Fingerprint": "xwa0n0gipi",
+      "Integrity": "QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\JobSearch.bundle.scp.css"
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-yvt80ylvkf.gz",
       "SourceId": "JobSearch",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/JobSearch",
-      "RelativePath": "css/site#[.{fingerprint=9vf63zllxq}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=yvt80ylvkf}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "luwgb7yf7p",
-      "Integrity": "s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=",
+      "Fingerprint": "qf6a8e874g",
+      "Integrity": "Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css"
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-s35ty4nyc5.gz",
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-0vk7hohlca.gz",
       "SourceId": "JobSearch",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/JobSearch",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint=s35ty4nyc5}]?.css.gz",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint=0vk7hohlca}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1228,8 +1228,8 @@
       "RelatedAsset": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dp6dicxiq4",
-      "Integrity": "MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw=",
+      "Fingerprint": "mt7cttepbg",
+      "Integrity": "ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "xvtlsbcqb3",
-      "Integrity": "c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=",
+      "Fingerprint": "uvtnjtdjav",
+      "Integrity": "9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\bundle\\JobSearch.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "xvtlsbcqb3",
-      "Integrity": "c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=",
+      "Fingerprint": "uvtnjtdjav",
+      "Integrity": "9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\JobSearch.bundle.scp.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9vf63zllxq",
-      "Integrity": "K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=",
+      "Fingerprint": "yvt80ylvkf",
+      "Integrity": "TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1543,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s35ty4nyc5",
-      "Integrity": "GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=",
+      "Fingerprint": "0vk7hohlca",
+      "Integrity": "XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -2791,13 +2791,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.9vf63zllxq.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
+      "Route": "css/site.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-yvt80ylvkf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002994011976"
+          "Quality": "0.002849002849"
         }
       ],
       "ResponseHeaders": [
@@ -2807,19 +2807,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "350"
         },
         {
           "Name": "ETag",
-          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
+          "Value": "\"Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2835,26 +2835,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
+          "Value": "W/\"TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "9vf63zllxq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
+          "Value": "sha256-TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y="
         }
       ]
     },
     {
-      "Route": "css/site.9vf63zllxq.css",
+      "Route": "css/site.css",
       "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2864,7 +2856,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "718"
+          "Value": "758"
         },
         {
           "Name": "Content-Type",
@@ -2872,11 +2864,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
+          "Value": "\"TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-yvt80ylvkf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yvt80ylvkf.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-yvt80ylvkf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002849002849"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "350"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yvt80ylvkf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.yvt80ylvkf.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2886,7 +3023,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9vf63zllxq"
+          "Value": "yvt80ylvkf"
         },
         {
           "Name": "label",
@@ -2894,13 +3031,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
+          "Value": "sha256-TiHWf/yZONBrZqWXnItIgUfoxXP+epUYD/5yJfIU47Y="
         }
       ]
     },
     {
-      "Route": "css/site.9vf63zllxq.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
+      "Route": "css/site.yvt80ylvkf.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-yvt80ylvkf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2909,7 +3046,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "333"
+          "Value": "350"
         },
         {
           "Name": "Content-Type",
@@ -2917,11 +3054,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
+          "Value": "\"Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2939,7 +3076,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9vf63zllxq"
+          "Value": "yvt80ylvkf"
         },
         {
           "Name": "label",
@@ -2947,144 +3084,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002994011976"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "333"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "718"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "333"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw="
+          "Value": "sha256-Fn/JFRG1k8oF1I57sTj7us0y7ljx1WM+9/acKUowUao="
         }
       ]
     },
@@ -3634,12 +3634,12 @@
     },
     {
       "Route": "JobSearch.bundle.scp.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-xvtlsbcqb3.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-uvtnjtdjav.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001805054152"
         }
       ],
       "ResponseHeaders": [
@@ -3649,15 +3649,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3677,13 +3677,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "W/\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
@@ -3698,7 +3698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1161"
         },
         {
           "Name": "Content-Type",
@@ -3706,11 +3706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3720,13 +3720,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
       "Route": "JobSearch.bundle.scp.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-xvtlsbcqb3.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-uvtnjtdjav.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3735,7 +3735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "Content-Type",
@@ -3743,11 +3743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3765,18 +3765,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE="
+          "Value": "sha256-QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ="
         }
       ]
     },
     {
       "Route": "JobSearch.styles.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-xvtlsbcqb3.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-uvtnjtdjav.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001805054152"
         }
       ],
       "ResponseHeaders": [
@@ -3786,15 +3786,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3814,13 +3814,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "W/\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
@@ -3835,7 +3835,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1161"
         },
         {
           "Name": "Content-Type",
@@ -3843,11 +3843,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3857,13 +3857,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
       "Route": "JobSearch.styles.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-xvtlsbcqb3.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-uvtnjtdjav.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3872,7 +3872,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "Content-Type",
@@ -3880,11 +3880,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3902,18 +3902,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE="
+          "Value": "sha256-QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.bundle.scp.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-xvtlsbcqb3.gz",
+      "Route": "JobSearch.uvtnjtdjav.bundle.scp.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-uvtnjtdjav.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001805054152"
         }
       ],
       "ResponseHeaders": [
@@ -3923,15 +3923,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3951,13 +3951,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "W/\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -3965,12 +3965,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.bundle.scp.css",
+      "Route": "JobSearch.uvtnjtdjav.bundle.scp.css",
       "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\JobSearch.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3980,7 +3980,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1161"
         },
         {
           "Name": "Content-Type",
@@ -3988,11 +3988,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4002,7 +4002,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -4010,13 +4010,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.bundle.scp.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-xvtlsbcqb3.gz",
+      "Route": "JobSearch.uvtnjtdjav.bundle.scp.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\i5rfdp8vzf-uvtnjtdjav.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4025,7 +4025,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "Content-Type",
@@ -4033,11 +4033,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4055,7 +4055,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -4063,18 +4063,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE="
+          "Value": "sha256-QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.styles.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-xvtlsbcqb3.gz",
+      "Route": "JobSearch.uvtnjtdjav.styles.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-uvtnjtdjav.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001805054152"
         }
       ],
       "ResponseHeaders": [
@@ -4084,15 +4084,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4112,13 +4112,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "W/\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -4126,12 +4126,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.styles.css",
+      "Route": "JobSearch.uvtnjtdjav.styles.css",
       "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\scopedcss\\bundle\\JobSearch.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4141,7 +4141,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1161"
         },
         {
           "Name": "Content-Type",
@@ -4149,11 +4149,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM=\""
+          "Value": "\"9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4163,7 +4163,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -4171,13 +4171,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-c40PiQK/gZmBirkwLaWXrHp0EdWW3AOB0nA5dDbx0WM="
+          "Value": "sha256-9vHKyX4gA9HZeIWRIHdfhsHmTUX/umI3UCw7nI5zklg="
         }
       ]
     },
     {
-      "Route": "JobSearch.xvtlsbcqb3.styles.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-xvtlsbcqb3.gz",
+      "Route": "JobSearch.uvtnjtdjav.styles.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\8sr53x16re-uvtnjtdjav.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4186,7 +4186,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "553"
         },
         {
           "Name": "Content-Type",
@@ -4194,11 +4194,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE=\""
+          "Value": "\"QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:57 GMT"
+          "Value": "Tue, 21 Jan 2025 15:37:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4216,7 +4216,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xvtlsbcqb3"
+          "Value": "uvtnjtdjav"
         },
         {
           "Name": "label",
@@ -4224,7 +4224,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XXciRSfjLzeEO5gRwtD6ircy1svInHq1px0Mfco4cGE="
+          "Value": "sha256-QS6AiOWpeDZko18n+0X2R7wDPz5FbG2d97Qa7la+MbQ="
         }
       ]
     },
@@ -4527,13 +4527,13 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-s35ty4nyc5.gz",
+      "Route": "lib/bootstrap/dist/css/bootstrap.0vk7hohlca.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-0vk7hohlca.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000029869470"
+          "Quality": "0.000029688567"
         }
       ],
       "ResponseHeaders": [
@@ -4543,15 +4543,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33478"
+          "Value": "33682"
         },
         {
           "Name": "ETag",
-          "Value": "\"MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw=\""
+          "Value": "\"ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0vk7hohlca"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.0vk7hohlca.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0vk7hohlca"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.0vk7hohlca.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-0vk7hohlca.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0vk7hohlca"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-0vk7hohlca.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029688567"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33682"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4571,13 +4732,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "W/\"XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU="
         }
       ]
     },
@@ -4592,7 +4753,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "281046"
+          "Value": "281761"
         },
         {
           "Name": "Content-Type",
@@ -4600,11 +4761,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+          "Value": "\"XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4614,13 +4775,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+          "Value": "sha256-XMZ317i4IMUVSedeiK7n40WgIp5YbjVyYuRxkH0fTKU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-s35ty4nyc5.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-0vk7hohlca.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4629,7 +4790,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33478"
+          "Value": "33682"
         },
         {
           "Name": "Content-Type",
@@ -4637,11 +4798,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw=\""
+          "Value": "\"ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
+          "Value": "Tue, 21 Jan 2025 15:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4659,7 +4820,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw="
+          "Value": "sha256-ZlwZ1bfdxFW2s700S/omeOkpTclz8lsFMKsJSizQJtY="
         }
       ]
     },
@@ -6746,167 +6907,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-5VQx+pcREAWRC7fSQ1OVsJtpTGF7SJ83RS8p2rovHHw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-s35ty4nyc5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029869470"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33478"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281046"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\x94eh7a3yx-s35ty4nyc5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33478"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 13:15:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s35ty4nyc5"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MfXRRxefGD0S0k5f3gXwZNQW7ELiStY01dZj+IbLlaw="
         }
       ]
     },
