@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\indeed.png",
+      "PackagePath": "staticwebassets\\images\\indeed.png"
+    },
+    {
+      "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
+      "PackagePath": "staticwebassets\\images\\platsbanken.png"
+    },
+    {
       "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

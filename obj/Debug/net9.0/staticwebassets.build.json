@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F2l9n6TU/xCzhTl2L1P44TBgjnBrwWC/tJGeHgD/YEU=",
+  "Hash": "VrgtrfjalD4+dL10u1ryUv/5gYUMgN92sUcKLkhh9vg=",
   "Source": "JobSearch",
   "BasePath": "_content/JobSearch",
   "Mode": "Default",
@@ -584,12 +584,12 @@
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-3y8m7uxm6z.gz",
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
       "SourceId": "JobSearch",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/JobSearch",
-      "RelativePath": "css/site#[.{fingerprint=3y8m7uxm6z}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=9vf63zllxq}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -598,8 +598,8 @@
       "RelatedAsset": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bf2fev07o4",
-      "Integrity": "+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c=",
+      "Fingerprint": "luwgb7yf7p",
+      "Integrity": "s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3y8m7uxm6z",
-      "Integrity": "NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM=",
+      "Fingerprint": "9vf63zllxq",
+      "Integrity": "K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\indeed.png",
+      "SourceId": "JobSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\",
+      "BasePath": "_content/JobSearch",
+      "RelativePath": "images/indeed#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5ydkx6l5",
+      "Integrity": "JyLGpEG4/57sjim+qO3Za3RLkqn9J9LzgCqlBJ+LudY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\indeed.png"
+    },
+    {
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\linkedin.png",
+      "SourceId": "JobSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\",
+      "BasePath": "_content/JobSearch",
+      "RelativePath": "images/linkedin#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6b5unrxc6r",
+      "Integrity": "nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\linkedin.png"
+    },
+    {
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
+      "SourceId": "JobSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\",
+      "BasePath": "_content/JobSearch",
+      "RelativePath": "images/platsbanken#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53rj0fm2yb",
+      "Integrity": "H3QMmYC5pEeEJWL0NV43SvX/a9Fu9TYWCl1ISJq5yks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\platsbanken.png"
     },
     {
       "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\js\\site.js",
@@ -2728,13 +2791,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.3y8m7uxm6z.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-3y8m7uxm6z.gz",
+      "Route": "css/site.9vf63zllxq.css",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002994011976"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2807,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "333"
         },
         {
           "Name": "ETag",
-          "Value": "\"+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c=\""
+          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2835,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM=\""
+          "Value": "W/\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3y8m7uxm6z"
+          "Value": "9vf63zllxq"
         },
         {
           "Name": "label",
@@ -2786,12 +2849,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM="
+          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
         }
       ]
     },
     {
-      "Route": "css/site.3y8m7uxm6z.css",
+      "Route": "css/site.9vf63zllxq.css",
       "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "669"
+          "Value": "718"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM=\""
+          "Value": "\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2886,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3y8m7uxm6z"
+          "Value": "9vf63zllxq"
         },
         {
           "Name": "label",
@@ -2831,13 +2894,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM="
+          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
         }
       ]
     },
     {
-      "Route": "css/site.3y8m7uxm6z.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-3y8m7uxm6z.gz",
+      "Route": "css/site.9vf63zllxq.css.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2909,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "333"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c=\""
+          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2939,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3y8m7uxm6z"
+          "Value": "9vf63zllxq"
         },
         {
           "Name": "label",
@@ -2884,18 +2947,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c="
+          "Value": "sha256-s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-3y8m7uxm6z.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002994011976"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2968,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "333"
         },
         {
           "Name": "ETag",
-          "Value": "\"+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c=\""
+          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +2996,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM=\""
+          "Value": "W/\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM="
+          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
         }
       ]
     },
@@ -2954,7 +3017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "669"
+          "Value": "718"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +3025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM=\""
+          "Value": "\"K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +3039,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NfpQtPYvYs68F9hvcKnTyGOrELZ+V3fCFkzJQtAsMSM="
+          "Value": "sha256-K4v5yox2PQyKn2L60WORyEP7pKqptAWaMFomYtHylIo="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-3y8m7uxm6z.gz",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\obj\\Debug\\net9.0\\compressed\\j8ar61qglm-9vf63zllxq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +3054,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "333"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +3062,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c=\""
+          "Value": "\"s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 21:24:36 GMT"
+          "Value": "Mon, 20 Jan 2025 13:32:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3084,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+dvIhEk+MwrCzO6wRnBQxycbwls5LEn5yPJduYTj46c="
+          "Value": "sha256-s67u05mUP/qskBpw4+lKPepmKtf9fCHOgBwkqk0kLLw="
         }
       ]
     },
@@ -3320,6 +3383,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "images/indeed.ll5ydkx6l5.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\indeed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15697"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JyLGpEG4/57sjim+qO3Za3RLkqn9J9LzgCqlBJ+LudY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 13:04:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5ydkx6l5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/indeed.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JyLGpEG4/57sjim+qO3Za3RLkqn9J9LzgCqlBJ+LudY="
+        }
+      ]
+    },
+    {
+      "Route": "images/indeed.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\indeed.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15697"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JyLGpEG4/57sjim+qO3Za3RLkqn9J9LzgCqlBJ+LudY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 13:04:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JyLGpEG4/57sjim+qO3Za3RLkqn9J9LzgCqlBJ+LudY="
+        }
+      ]
+    },
+    {
+      "Route": "images/linkedin.6b5unrxc6r.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\linkedin.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6b5unrxc6r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/linkedin.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc="
+        }
+      ]
+    },
+    {
+      "Route": "images/linkedin.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\linkedin.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 12:56:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc="
+        }
+      ]
+    },
+    {
+      "Route": "images/platsbanken.53rj0fm2yb.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3QMmYC5pEeEJWL0NV43SvX/a9Fu9TYWCl1ISJq5yks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 12:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53rj0fm2yb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/platsbanken.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3QMmYC5pEeEJWL0NV43SvX/a9Fu9TYWCl1ISJq5yks="
+        }
+      ]
+    },
+    {
+      "Route": "images/platsbanken.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H3QMmYC5pEeEJWL0NV43SvX/a9Fu9TYWCl1ISJq5yks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 12:58:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H3QMmYC5pEeEJWL0NV43SvX/a9Fu9TYWCl1ISJq5yks="
         }
       ]
     },

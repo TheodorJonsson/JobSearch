@@ -62,6 +62,9 @@ E:\skola\Databasteknik\JobSearch\JobSearch\wwwroot\lib\jquery\dist\jquery.slim.m
 E:\skola\Databasteknik\JobSearch\JobSearch\wwwroot\js\site.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\indeed.png
+wwwroot\images\linkedin.png
+wwwroot\images\platsbanken.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

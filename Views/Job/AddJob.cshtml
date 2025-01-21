@@ -43,6 +43,33 @@
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ELevel" class="control-label">Experience Level</label>
+                @Html.DropDownListFor(model => model.ELevel, Html.GetEnumSelectList<ELevels>(), "Select experience level", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label asp-for="Ongoing" class="control-label">Currently ongoing</label>
+                <input asp-for="Ongoing" type="checkbox" checked="true" class="form-check-input" />
+                <span asp-validation-for="Ongoing" class="text-danger"></span>
+            </div>
+         
+            <div>
+                @{
+                    // Error messages
+                    if (TempData["dateError"] != null)
+                    {
+                        <err class="err">
+                            Error: @TempData["dateError"]
+                        </err>
+                    }
+                    if (TempData["idError"] != null)
+                    {
+                        <err class="err">
+                            Error: @TempData["idError"]
+                        </err>
+                    }
+                }
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

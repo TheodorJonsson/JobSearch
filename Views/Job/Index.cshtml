@@ -1,10 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Jobs";
+    var jobList = ViewBag.jobList as List<JobSearch.Models.JobModel>;
+    var deniedList = ViewBag.deniedList as List<JobSearch.Models.JobModel>;
 }
 
-@model List<JobSearch.Models.JobModel>
-
-<h1>Job Applications</h1>
+<h1>Current Job Applications</h1>
 <p>
     <a asp-action="AddJob">Add new job application</a>
 </p>
@@ -12,28 +12,90 @@
     <thead>
         <tr>
             <td>ID</td>
-            <td>Företag</td>
+            <td>Company</td>
             <td>Position</td>
-            <td>Plats</td>
-            <td>Datum</td>
+            <td>Location</td>
+            <td>Date</td>
+            <td>Experience</td>
             <td></td>
             <td></td>
         </tr>
     </thead>
     @{
-        foreach(var job in Model){
-            <tr>
-                <td>@job.Id</td>
-                <td>@job.Company</td>
-                <td>@job.Position</td>
-                <td>@job.Location</td>
-                <td>@job.Date</td>
-                <td>@Html.ActionLink("Edit", "EditJob", new { id=@job.Id})</td>
-                <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
-            </tr>
+        if(jobList != null){
+            foreach (var job in jobList)
+            {
+                <tr>
+                    <td>@job.Id</td>
+                    <td>@job.Company</td>
+                    <td>@job.Position</td>
+                    <td>@job.Location</td>
+                    <td>@job.Date</td>
+                    <td>
+                        @{
+                            if (@job.ELevel != null)
+                            {
+                                @job.ELevel
+                            }
+                        }
+                    </td>
+                    
+                    <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id })</td>
+                    <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
+                </tr>
+            }
         }
+        
     }
     
 </table>
 
-<p>Amount of job applications: @ViewBag.nrOfJobs</p>
+<p>Amount of ongoing job applications: @ViewBag.nrOfJobs</p>
+
+
+@{
+    
+    if(deniedList != null && deniedList.Count() > 0){
+        <h1>Denied Job Applications</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Company</td>
+                    <td>Position</td>
+                    <td>Location</td>
+                    <td>Date</td>
+                    <td>Experience</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            @{
+               foreach (var job in deniedList)
+                    {
+                        <tr>
+                            <td>@job.Id</td>
+                            <td>@job.Company</td>
+                            <td>@job.Position</td>
+                            <td>@job.Location</td>
+                            <td>@job.Date</td>
+                        <td>
+                            @{
+                                if (@job.ELevel != null)
+                                {
+                                    @job.ELevel
+                                }
+                            }
+                        </td>
+                            <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id })</td>
+                            <td>@Html.ActionLink("Delete", "Delete", new { id = @job.Id })</td>
+                        </tr>
+                    }
+            }
+
+        </table>
+        <p>Amount of denied job applications: @ViewBag.nrOfDenials</p>
+        <p>Total amount job applications: @(ViewBag.nrOfJobs + ViewBag.nrOfDenials)</p>
+    }
+    
+}

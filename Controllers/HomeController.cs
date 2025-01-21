@@ -7,10 +7,12 @@ namespace JobSearch.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IHttpContextAccessor _contx;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IHttpContextAccessor contx)
         {
             _logger = logger;
+            _contx = contx;
         }
         [Route("/")]
         public IActionResult Index()
@@ -23,6 +25,11 @@ namespace JobSearch.Controllers
             return View();
         }
 
+        [Route("/Privacy")]
+        public IActionResult Privacy()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

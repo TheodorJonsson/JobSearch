@@ -9,6 +9,7 @@
       "JobSearch/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "9.0.0",
+          "Newtonsoft.Json": "13.0.3",
           "System.Runtime": "4.3.1"
         },
         "runtime": {

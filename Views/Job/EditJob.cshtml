@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "EditJob";
+
 }
 
 <h1>Edit Job Application</h1>
@@ -11,13 +12,13 @@
     <div class="col-md-4">
         <form asp-action="EditJob">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-           <!--
-                div class="form-group">
-                 <label asp-for="Id" class="control-label"></label>
-                 <input asp-for="Id" class="form-control" />
-                 <span asp-validation-for="Id" class="text-danger"></span>
-             </div>
-           --> 
+            <!--
+            div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input asp-for="Id" class="form-control" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            --> 
             <div class="form-group">
                 <label asp-for="Position" class="control-label"></label>
                 <input asp-for="Position" class="form-control" />
@@ -39,9 +40,36 @@
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ELevel" class="control-label">Experience Level</label>
+                @Html.DropDownListFor(model => model.ELevel, Html.GetEnumSelectList<ELevels>(), "Select experience level", new { @class = "form-control" })
+        
+            </div>
+            <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
                 <input asp-for="Description" class="form-control" />
                 <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ongoing" class="control-label"></label>
+                <input asp-for="Ongoing" type="checkbox" checked="@Model.Ongoing" class="form-check-input" />
+                <span asp-validation-for="Ongoing" class="text-danger"></span>
+            </div>
+            <div>
+                @{
+                    // Error messages
+                    if (TempData["dateError"] != null)
+                    {
+                        <err class="err">
+                            Error: @TempData["dateError"]
+                        </err>
+                    }
+                    if (TempData["idError"] != null)
+                    {
+                        <err class="err">
+                            Error: @TempData["idError"]
+                        </err>
+                    }
+                }
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" asp-action="EditJob" class="btn btn-primary" />

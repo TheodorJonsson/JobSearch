@@ -8,17 +8,21 @@
         public string? Location {  get; set; }
         public string? Description { get; set; }
         public DateOnly Date { get; set; }
+        public bool Ongoing { get; set; }
+        public ELevels? ELevel { get; set; }
 
-       /* public override bool Equals(object? obj)
+
+        // Overrides the inherited equals function to only check for the ID for the item
+        public override bool Equals(object? obj)
         {
             if(obj is JobModel b)
             {
-                return this.Id == b.Id && this.Position == b.Position && this.Company == b.Company && this.Location == b.Location;
+                return this.Id == b.Id;
             }
             else
             {
                 return false;
             }
-        }*/
+        }
     }
 }
