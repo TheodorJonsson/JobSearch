@@ -10,8 +10,6 @@
         public DateOnly Date { get; set; }
         public bool Ongoing { get; set; }
         public ELevels? ELevel { get; set; }
-
-
         // Overrides the inherited equals function to only check for the ID for the item
         public override bool Equals(object? obj)
         {

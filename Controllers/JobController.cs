@@ -26,6 +26,9 @@ namespace JobSearch.Controllers
             string jobListString = _contx.HttpContext.Session.GetString(JobListSessionKey);
             string deniedListString = _contx.HttpContext.Session.GetString(DeniedListSessionKey);
 
+            // Checks if the session string is empty or not,
+            // if it is it will create a new list
+            // if the session string isnt empty it will create the list using that
             if (string.IsNullOrEmpty(jobListString))
             {
                 jobList = new List<JobModel>();
@@ -57,14 +60,12 @@ namespace JobSearch.Controllers
             ViewBag.jobList = jobList;
             ViewBag.deniedList = deniedList;
 
-
-         
-
             return View();
         }
 
 
-        // Gets the information that the user entered into the forms
+        // Goes into the addjob page and populates the form  with a default job
+        // Sends this job then to the next addjob function
         [Route("/Job/AddJob")]
         [HttpGet]
         public IActionResult AddJob()
@@ -199,7 +200,7 @@ namespace JobSearch.Controllers
             {
                 deniedList.Remove(deniedUpdatedJob);
             }
-            UpdateSession();
+            UpdateSession(); 
             return Redirect("/Job");
         }
      

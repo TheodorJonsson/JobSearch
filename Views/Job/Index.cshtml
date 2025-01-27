@@ -34,6 +34,7 @@
                     <td>@job.Location</td>
                     <td>@job.Date</td>
                     <td>
+                        
                         @{
                             if (@job.ELevel != null)
                             {
@@ -44,9 +45,10 @@
 
                     <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id }, new { @class = "btn btn-primary" })</td>
                     <td> 
-                        <!--<btn class="btn btn-danger"-->
-                        <!-- onclick="return confirm('Are you sure you want to delete @job.Position at @job.Company')">"-->
-                        @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')"})
+                        <!---->
+                        <!--Also creates a popup to make the user confirm that they actually want to remove the item-->
+                        @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, 
+                        new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')"})
                         <!-- </btn>-->
                     </td>
                 </tr>
