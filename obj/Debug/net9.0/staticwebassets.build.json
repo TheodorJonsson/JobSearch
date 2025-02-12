@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WIFL8FiLpmj2vgzCGdxlwhoZa1/pb1+69yAKJKIFKvo=",
+  "Hash": "UxBcyKR3JMnGrXiXDIHPpEb/gVFu30ppSdZzPMQKKi4=",
   "Source": "JobSearch",
   "BasePath": "_content/JobSearch",
   "Mode": "Default",
@@ -1485,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\linkedin.png"
+    },
+    {
+      "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\loginicon.png",
+      "SourceId": "JobSearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\",
+      "BasePath": "_content/JobSearch",
+      "RelativePath": "images/loginicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bdh0fa44pj",
+      "Integrity": "EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\loginicon.png"
     },
     {
       "Identity": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
@@ -3547,6 +3568,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-nrb/z6KX3CWuvZD9eTDp1K1yTYzUltRiHfKN3CljHXc="
+        }
+      ]
+    },
+    {
+      "Route": "images/loginicon.bdh0fa44pj.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\loginicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdh0fa44pj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/loginicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE="
+        }
+      ]
+    },
+    {
+      "Route": "images/loginicon.png",
+      "AssetFile": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\loginicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE="
         }
       ]
     },

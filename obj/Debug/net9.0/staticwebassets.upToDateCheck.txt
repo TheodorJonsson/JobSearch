@@ -64,6 +64,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\indeed.png
 wwwroot\images\linkedin.png
+wwwroot\images\loginicon.png
 wwwroot\images\platsbanken.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

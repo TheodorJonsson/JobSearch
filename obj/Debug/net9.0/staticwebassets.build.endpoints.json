@@ -1061,6 +1061,88 @@
       ]
     },
     {
+      "Route": "images/loginicon.bdh0fa44pj.png",
+      "AssetFile": "images/loginicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:46:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdh0fa44pj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/loginicon.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/loginicon.png",
+      "AssetFile": "images/loginicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 10:46:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EZFakPLpvGrZqj7adUgJuNKRA+uc6dxUIgu1b2dPmiE="
+        }
+      ]
+    },
+    {
       "Route": "images/platsbanken.53rj0fm2yb.png",
       "AssetFile": "images/platsbanken.png",
       "Selectors": [],

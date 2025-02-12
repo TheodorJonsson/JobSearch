@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\linkedin.png"
     },
     {
+      "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\loginicon.png",
+      "PackagePath": "staticwebassets\\images\\loginicon.png"
+    },
+    {
       "Id": "E:\\skola\\Databasteknik\\JobSearch\\JobSearch\\wwwroot\\images\\platsbanken.png",
       "PackagePath": "staticwebassets\\images\\platsbanken.png"
     },
