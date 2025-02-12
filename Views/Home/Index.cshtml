@@ -1,8 +1,26 @@
-﻿@{
+﻿
+
+@{
     ViewData["Title"] = "Home Page";
 }
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json;
+@inject IHttpContextAccessor Accessor
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    @{
+        string userkey = Accessor.HttpContext.Session.GetString("Name");
+        
+        if(!string.IsNullOrEmpty(userkey))
+        {
+            string username = JsonConvert.DeserializeObject<string>(userkey);
+            <h1 class="display-4">Welcome @username</h1>
+        }
+        else
+        {
+            <h1 class="display-4">Welcome</h1>
+        }
+     }
+    
     <p>This is a website made to keep track of your job applications.</a>.</p>
     <div class="col">
         <h4>Different job billboard websites</h4>
