@@ -66,13 +66,13 @@ namespace JobSearch.Models
                 SqlDataReader reader = getCommand.ExecuteReader();
                 if (reader.HasRows)
                 {
-                    errormsg = "Username is taken";
+                    errormsg = "User exists";
                     return true;
 
                 }
                 else
                 {
-                    errormsg = "";
+                    errormsg = "Username does not exist";
                 }
                 return false;
 
@@ -88,6 +88,7 @@ namespace JobSearch.Models
 
 
         // Gets the user and sends a usermodel with the id aswell which will be used for the list of jobs.
+        // Checks if the user has the right password, it will be hashed before sent in
         public UserModel GetUser(UserModel userModel, out string errormsg)
         {
             SqlConnection sqlConnection = ConnectToSQL();
@@ -101,26 +102,29 @@ namespace JobSearch.Models
                 sqlConnection.Open();
                 SqlDataReader reader = getCommand.ExecuteReader();
                 UserModel loggedIn = new UserModel();
+                loggedIn.Id = 0;
                 while (reader.Read())
                 {
-                    
-                    int ordinal = reader.GetOrdinal("UserId");
-                    if(!reader.IsDBNull(ordinal))
+                    // Reads the id portion of the data and assigns it to loggedIn usermodel
+                    int ordinal = reader.GetOrdinal("UserId");                    
+                    if (!reader.IsDBNull(ordinal))
                     {
                         loggedIn.Id = reader.GetInt32(ordinal);
                     }
+                    // Reads the username and assigns it to loggedIn usermodel
                     ordinal = reader.GetOrdinal("Username");
                     if (!reader.IsDBNull(ordinal))
                     {
                         loggedIn.UserName = reader.GetString(ordinal);
                     }
+                    // Leaves out the password as this is not needed to be stored anywhere
                 }
-                if(loggedIn != null)
+                if(loggedIn.Id != 0 || loggedIn.UserName != null)
                 {
                     errormsg = null;
                     return loggedIn;
                 }
-                errormsg = "couldnt find user";
+                errormsg = "Wrong username or password";
                 return null;
 
             }
@@ -150,7 +154,7 @@ namespace JobSearch.Models
         // Encrypts the string to SHA256 which is used for the passwords
         private byte[] CalculateSHA256(string str)
         {
-            SHA256 sha256 = SHA256Managed.Create();
+            SHA256 sha256 = SHA256.Create();
             byte[] hashValue;
             UTF8Encoding objUtf8 = new UTF8Encoding();
             hashValue = sha256.ComputeHash(objUtf8.GetBytes(str));

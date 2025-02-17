@@ -11,17 +11,15 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="EditJob">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <!--
-            div class="form-group">
-            <label asp-for="Id" class="control-label"></label>
-            <input asp-for="Id" class="form-control" />
-            <span asp-validation-for="Id" class="text-danger"></span>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div> 
+            <div class="form-group" type="hidden">
+                <label type="hidden" asp-for="JobId" class="control-label"></label>
+                <input type="hidden" asp-for="JobId" class="form-control" />
+                <span asp-validation-for="JobId" class="text-danger"></span>
             </div>
-            --> 
             <div class="form-group">
                 <label asp-for="Position" class="control-label"></label>
-                <input asp-for="Position" class="form-control" />
+                <input asp-for="Position" class="form-control autofocus=" autofocus"" />
                 <span asp-validation-for="Position" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -41,7 +39,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="ELevel" class="control-label">Experience Level</label>
-                @Html.DropDownListFor(model => model.ELevel, Html.GetEnumSelectList<ELevels>(), "Select experience level", new { @class = "form-control" })
+                @Html.DropDownListFor(
+                         model => model.ELevel,
+                         Html.GetEnumSelectList<JobSearch.Models.ELevels>()
+                         .Select(e => new SelectListItem { Value = e.Text, Text = e.Text }),
+                         "Select experience level",
+                         new { @class = "form-control" })
         
             </div>
             <div class="form-group">
@@ -63,10 +66,10 @@
                             Error: @TempData["dateError"]
                         </err>
                     }
-                    if (TempData["idError"] != null)
+                    if (TempData["alreadyInUse"] != null)
                     {
                         <err class="err">
-                            Error: @TempData["idError"]
+                            Error: @TempData["alreadyInUse"]
                         </err>
                     }
                 }

@@ -8,9 +8,9 @@
 @inject IHttpContextAccessor Accessor
 <div class="text-center">
     @{
-        string userkey = Accessor.HttpContext.Session.GetString("Name");
-        
-        if(!string.IsNullOrEmpty(userkey))
+        string userkey = Context.Session.GetString("Name");
+
+        if (string.IsNullOrEmpty(userkey) == false)
         {
             string username = JsonConvert.DeserializeObject<string>(userkey);
             <h1 class="display-4">Welcome @username</h1>

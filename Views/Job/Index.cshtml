@@ -3,14 +3,60 @@
     var jobList = ViewBag.jobList as List<JobSearch.Models.JobModel>;
     var deniedList = ViewBag.deniedList as List<JobSearch.Models.JobModel>;
 }
+@model JobSearch.Models.FilterJobs
 
 <link rel="stylesheet" href="~/JobSearch.styles.css" asp-append-version="true" />
 
 <h1>Current Job Applications</h1>
-<p>
-    <a asp-action="AddJob">Add new job application</a>
-</p>
-<table class="table" >
+
+@{
+    if (TempData["nologin"] != null)
+    {
+        <p>@TempData["nologin"]</p>
+    }
+    else{
+        <p> Amount of ongoing job applications: @ViewBag.nrOfJobs </p>
+        <p>
+            <a asp-action="AddJob">Add new job application</a>
+        </p>
+    }
+    @using (Html.BeginForm("Index", "Login", FormMethod.Get))
+    {
+        <div class="row align-items-center">
+            <form asp-action="Index">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group col-auto">
+                        <label for="SortBy">Sort By</label>
+                        @Html.DropDownListFor(model => model.SortBy, new SelectList(new[] { "Date", "Company" }), "", new { @class = "form-control w-auto" })
+                    </div>
+                    <div class="form-group col-auto">
+                        <label for="OrderBy">Order By</label>
+                    @Html.DropDownListFor(model => model.OrderBy, new SelectList(new[] { "Desc", "Asc" }), "", new { @class = "form-control w-auto" })
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="Company" class="control-label"></label>
+                        <input asp-for="Company" class="form-control" />
+                        <span asp-validation-for="Company" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="Position" class="control-label"></label>
+                        <input asp-for="Position" class="form-control" />
+                        <span asp-validation-for="Position" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm">
+                        <label asp-for="Location" class="control-label"></label>
+                        <input asp-for="Location" class="form-control" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-sm align-self-end">
+                        <button type="submit" class="btn btn-primary w-auto h-auto">Sort</button>
+                    </div>
+            </form>        
+        </div>
+    }
+}
+
+<table class="table">
     <thead>
         <tr>
             <td>ID</td>
@@ -28,7 +74,7 @@
             foreach (var job in jobList)
             {
                 <tr >
-                    <td>@job.Id</td>
+                    <td>@job.JobId</td>
                     <td>@job.Company</td>
                     <td>@job.Position</td>
                     <td>@job.Location</td>
@@ -43,11 +89,11 @@
                         }
                     </td>
 
-                    <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id }, new { @class = "btn btn-primary" })</td>
+                    <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.JobId }, new { @class = "btn btn-primary" })</td>
                     <td> 
                         <!---->
                         <!--Also creates a popup to make the user confirm that they actually want to remove the item-->
-                        @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, 
+                        @Html.ActionLink("Delete", "DeleteJob", new { id = @job.JobId }, 
                         new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')"})
                         <!-- </btn>-->
                     </td>
@@ -59,7 +105,6 @@
     
 </table>
 
-<p>Amount of ongoing job applications: @ViewBag.nrOfJobs</p>
 
 
 @{
@@ -83,7 +128,7 @@
                foreach (var job in deniedList)
                     {
                         <tr>
-                            <td>@job.Id</td>
+                            <td>@job.JobId</td>
                             <td>@job.Company</td>
                             <td>@job.Position</td>
                             <td>@job.Location</td>
@@ -96,11 +141,11 @@
                                 }
                             }
                         </td>
-                        <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.Id }, new { @class = "btn btn-primary" })</td>
+                        <td>@Html.ActionLink("Edit", "EditJob", new { id = @job.JobId }, new { @class = "btn btn-primary" })</td>
                         <td>
                             <!--<btn class="btn btn-danger"-->
                             <!-- onclick="return confirm('Are you sure you want to delete @job.Position at @job.Company')">"-->
-                            @Html.ActionLink("Delete", "DeleteJob", new { id = @job.Id }, new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')" })
+                            @Html.ActionLink("Delete", "DeleteJob", new { id = @job.JobId }, new { @class = "btn btn-danger", @onclick = "return confirm('Are you sure you want to delete " + @job.Position + " at " + @job.Company + "?')" })
                             <!-- </btn>-->
                         </td>
                             

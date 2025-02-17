@@ -45,14 +45,15 @@
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropDown">
                                 <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Login">Login</a>
                                 <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="CreateUser">Create User</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
+                                
                                 @{
                                     string userkey = Accessor.HttpContext.Session.GetString("Username");
 
                                     if (!string.IsNullOrEmpty(userkey))
                                     {
-                                        <a class="dropdown-item" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
-                                    }
-
+                                        
+                                        }
                                 }
                                 
                             </div>

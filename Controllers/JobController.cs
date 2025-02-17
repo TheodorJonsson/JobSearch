@@ -3,6 +3,7 @@ using JobSearch.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using System.Text.Json.Serialization;
 
@@ -15,21 +16,42 @@ namespace JobSearch.Controllers
         //    new JobModel { Id = 1, Company = "Umeå Universitet", Position = "Systemutvecklare", Location = "Umeå", Date = DateOnly.FromDateTime(DateTime.Now), Ongoing = true}
         //};
         public static IList<JobModel> deniedList = new List<JobModel>();
-        private const string JobListSessionKey = "jobList";
-        private const string DeniedListSessionKey = "deniedList";
+        //private const string JobListSessionKey = "jobList";
+        //private const string DeniedListSessionKey = "deniedList";
+        private const string UserSessionKey = "Username";
+        private const string UserNameSessionKey = "Name";
+        private JobMethods jM;
         private readonly IHttpContextAccessor _contx;
+        private UserModel loggedInUser;
 
         public JobController(IHttpContextAccessor contx)
         {
             _contx = contx;
+            string userKey = _contx.HttpContext.Session.GetString(UserSessionKey);
+            jM = new JobMethods();
+            loggedInUser = new UserModel();
+            loggedInUser.Id = -1;
+            string errormsg;
+            if (!string.IsNullOrEmpty(userKey))
+            {
+                loggedInUser = JsonConvert.DeserializeObject<UserModel>(userKey);
+
+            }
+            /*if (loggedInUser != null) 
+            {
+                jobList = jM.GetJobList(loggedInUser.Id, true, out errormsg);
+                deniedList = jM.GetJobList(loggedInUser.Id, false, out errormsg);
+            }*/
+            // Commenting the session lists for the moment as the previous version used sessions to store the lists.
+
             // Retrieve lists from session in the constructor
-            string jobListString = _contx.HttpContext.Session.GetString(JobListSessionKey);
-            string deniedListString = _contx.HttpContext.Session.GetString(DeniedListSessionKey);
+            //string jobListString = _contx.HttpContext.Session.GetString(JobListSessionKey);
+            //string deniedListString = _contx.HttpContext.Session.GetString(DeniedListSessionKey);
 
             // Checks if the session string is empty or not,
             // if it is it will create a new list
             // if the session string isnt empty it will create the list using that
-            if (string.IsNullOrEmpty(jobListString))
+            /*if (string.IsNullOrEmpty(jobListString))
             {
                 jobList = new List<JobModel>();
             }
@@ -44,23 +66,79 @@ namespace JobSearch.Controllers
             else
             {
                 deniedList = JsonConvert.DeserializeObject<List<JobModel>>(deniedListString);
-            }
+            }*/
 
 
         }
         
         [Route("/Job")]
-        public IActionResult Index()
+        public IActionResult Index(FilterJobs filter)
         {
-            int nrOfJobs = jobList.Count();
-            int nrOfDenials = deniedList.Count();
 
-            ViewBag.nrOfJobs = nrOfJobs;
-            ViewBag.nrOfDenials = nrOfDenials;
-            ViewBag.jobList = jobList;
-            ViewBag.deniedList = deniedList;
+            string error;
+            if(filter != null)
+            {
+                System.Diagnostics.Debug.WriteLine("Filtered");
+                error = GetLists(filter);
+            }
+            else
+            {
+                error = GetLists();
+            }
+            System.Diagnostics.Debug.WriteLine("User id = " + loggedInUser.Id);
+            System.Diagnostics.Debug.WriteLine(error);
+            if (jobList != null)
+            {
+                int nrOfJobs = jobList.Count();
+                ViewBag.nrOfJobs = nrOfJobs;
+                ViewBag.jobList = jobList;
 
+            }
+            if(deniedList != null)
+            {
+                int nrOfDenials = deniedList.Count();
+                ViewBag.nrOfDenials = nrOfDenials;
+                ViewBag.deniedList = deniedList;
+            }
+            if (deniedList.IsNullOrEmpty() && jobList.IsNullOrEmpty())
+            {
+                TempData["nologin"] = "Please login to view your job applications";
+            }
             return View();
+        }
+
+        private string GetLists()
+        {
+            string errormsg;
+            if(loggedInUser.Id != -1)
+            {
+                jobList = jM.GetJobList(loggedInUser.Id, true, out errormsg);
+                deniedList = jM.GetJobList(loggedInUser.Id, false, out errormsg);
+            }
+            else
+            {
+                jobList = new List<JobModel>();
+                deniedList = new List<JobModel>();
+                errormsg = "No logged in user";
+            }
+            return errormsg;
+        }
+
+        private string GetLists(FilterJobs filter)
+        {
+            string errormsg;
+            if (loggedInUser.Id != -1)
+            {
+                jobList = jM.GetJobList(loggedInUser.Id, true, filter, out errormsg);
+                deniedList = jM.GetJobList(loggedInUser.Id, false, filter, out errormsg);
+            }
+            else
+            {
+                jobList = new List<JobModel>();
+                deniedList = new List<JobModel>();
+                errormsg = "No logged in user";
+            }
+            return errormsg;
         }
 
 
@@ -70,7 +148,7 @@ namespace JobSearch.Controllers
         [HttpGet]
         public IActionResult AddJob()
         {
-            JobModel job = new JobModel() { Id = 2, Company = "Luleå Tekniska Universitet", Position = "Databastekniker",Location = "Luleå", Date = DateOnly.FromDateTime(DateTime.Now)};
+            JobModel job = new JobModel() {Company = "Luleå Tekniska Universitet", Position = "Databastekniker",Location = "Luleå", Date = DateOnly.FromDateTime(DateTime.Now)};
 
             return View(job);
         }
@@ -85,7 +163,7 @@ namespace JobSearch.Controllers
             // Checks if the list already contains the job
             if (jobList.Contains(job) || deniedList.Contains(job))
             {
-                TempData["idError"] = "ID is already in use";
+                TempData["alreadyInUse"] = "This application already exists";
                 return Redirect("/Job/AddJob");
             }
             if (job.Date > DateOnly.FromDateTime(DateTime.Now))
@@ -93,15 +171,25 @@ namespace JobSearch.Controllers
                 TempData["dateError"] = "Invalid date";
                 return Redirect("/Job/AddJob");
             }
-            if (job.Ongoing == true)
+            if(loggedInUser.Id > 0)
+            {
+                string errmsg;
+                JobMethods jobMethods = new JobMethods();
+                if(jobMethods.InsertJob(job, out errmsg, loggedInUser.Id) != 1)
+                {
+                    TempData["alreadyInUse"] = errmsg;
+                    return Redirect("/Job/AddJob");
+                }
+            }
+            /*if (job.Ongoing == true)
             {
                 jobList.Add(job);
             }
             else
             {
                 deniedList.Add(job);
-            }
-            UpdateSession();
+            }*/
+            //UpdateSession();
             return Redirect("/Job");
         }
 
@@ -113,16 +201,19 @@ namespace JobSearch.Controllers
         [HttpGet]
         public IActionResult EditJob(int id)
         {
-            var job = jobList.Where(j => j.Id == id).FirstOrDefault();
+            var job = jobList.Where(j => j.JobId == id).FirstOrDefault();
+
             if (job == null)
             {
-                var djob = deniedList.Where(j => j.Id == id).FirstOrDefault();
+                var djob = deniedList.Where(j => j.JobId == id).FirstOrDefault();
                 if(djob == null)
                 {
                     return NotFound();
                 }
+                System.Diagnostics.Debug.WriteLine("Jobb id: " + djob.JobId);
                 return View(djob);
             }
+            //System.Diagnostics.Debug.WriteLine("Jobb id: " + job.JobId);
             return View(job);
         }
 
@@ -140,45 +231,55 @@ namespace JobSearch.Controllers
         [HttpPost]
         public IActionResult EditJob(JobModel job)
         {
-
+            System.Diagnostics.Debug.WriteLine("Jobb id: " + job.JobId);
             // Checks if the date is either today or in the past
             // cannot enter a date that is in the future
-            if(job.Date > DateOnly.FromDateTime(DateTime.Now))
+            if (job.Date > DateOnly.FromDateTime(DateTime.Now))
             {
-                String url = "" + job.Id;
+                String url = "" + job.JobId;
                 TempData["dateError"] = "Invalid date";
                 return Redirect(url);
             }
+            if (loggedInUser.Id > 0)
+            {
+                string errmsg;
+                JobMethods jobMethods = new JobMethods();
+                if (jobMethods.UpdateJob(job, out errmsg, loggedInUser.Id) != 1)
+                {
+                    TempData["alreadyInUse"] = errmsg;
+                    return Redirect("/Job");
+                }
+            }
             // Checks with the job gotten from the ongoing list
-            var updatedJob = jobList.Where(j => j.Id == job.Id).FirstOrDefault();
-            if (updatedJob != null)
-            {
-                jobList.Remove(updatedJob);
-                if (job.Ongoing == true)
-                {
-                    jobList.Add(job);
-                }
-                else
-                {
-                    deniedList.Add(job);
-                }
-            }
+            /* var updatedJob = jobList.Where(j => j.JobId == job.JobId).FirstOrDefault();
+             if (updatedJob != null)
+             {
+                 jobList.Remove(updatedJob);
+                 if (job.Ongoing == true)
+                 {
+                     jobList.Add(job);
+                 }
+                 else
+                 {
+                     deniedList.Add(job);
+                 }
+             }
 
-            // Check with the job item from the denied list
-            var deniedUpdatedJob = deniedList.Where(j => j.Id == job.Id).FirstOrDefault();
-            if(deniedUpdatedJob != null)
-            {
-                deniedList.Remove(deniedUpdatedJob);
-                if (job.Ongoing == true)
-                {
-                    jobList.Add(job);
-                }
-                else
-                {
-                    deniedList.Add(job);
-                }
-            }
-            UpdateSession();
+             // Check with the job item from the denied list
+             var deniedUpdatedJob = deniedList.Where(j => j.JobId == job.JobId).FirstOrDefault();
+             if(deniedUpdatedJob != null)
+             {
+                 deniedList.Remove(deniedUpdatedJob);
+                 if (job.Ongoing == true)
+                 {
+                     jobList.Add(job);
+                 }
+                 else
+                 {
+                     deniedList.Add(job);
+                 }
+             }*/
+            //UpdateSession();
             return Redirect("/Job");
         }
 
@@ -187,32 +288,50 @@ namespace JobSearch.Controllers
         // Deletes the selected job from the list
         [Route("/Job/DeleteJob/{id}")]
         public IActionResult DeleteJob(int id)
-        {
-            var updatedJob = jobList.Where(j => j.Id == id).FirstOrDefault();
+        { 
+           var updatedJob = jobList.Where(j => j.JobId == id).FirstOrDefault();
             if (updatedJob != null)
             {
-                jobList.Remove(updatedJob);
+                if (loggedInUser.Id > 0)
+                {
+                    string errmsg;
+
+                    JobMethods jobMethods = new JobMethods();
+                    if (jobMethods.DeleteJob(updatedJob, out errmsg, loggedInUser.Id) != 1)
+                    {
+
+                    }
+                }
             }
 
             // Check with the job item from the denied list
-            var deniedUpdatedJob = deniedList.Where(j => j.Id == id).FirstOrDefault();
-            if (deniedUpdatedJob != null)
+            updatedJob = deniedList.Where(j => j.JobId == id).FirstOrDefault();
+            if (updatedJob != null)
             {
-                deniedList.Remove(deniedUpdatedJob);
+                if (loggedInUser.Id > 0)
+                {
+                    string errmsg;
+
+                    JobMethods jobMethods = new JobMethods();
+                    if (jobMethods.DeleteJob(updatedJob, out errmsg, loggedInUser.Id) != 1)
+                    {
+
+                    }
+                }
             }
-            UpdateSession(); 
+            //UpdateSession(); 
             return Redirect("/Job");
         }
      
 
         // Helper method to update session variables
-        private void UpdateSession()
+       /* private void UpdateSession()
         {
             string jobListString = JsonConvert.SerializeObject(jobList);
             string deniedListString = JsonConvert.SerializeObject(deniedList);
 
             _contx.HttpContext.Session.SetString(JobListSessionKey, jobListString);
             _contx.HttpContext.Session.SetString(DeniedListSessionKey, deniedListString);
-        }
+        }*/
     }
 }
