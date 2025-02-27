@@ -8,6 +8,8 @@ namespace JobSearch.Models
     {
         public JobMethods() { }
 
+
+        // Inserts a job into the database needs a userid
         public int InsertJob(JobModel job, out string errormsg, int userId)
         {
             if(userId > 0)
@@ -86,6 +88,7 @@ namespace JobSearch.Models
         }
         
 
+        // Deletes a job application from the database.
         public int DeleteJob(JobModel job, out string errormsg, int userId)
         {
             if(userId > 0)
@@ -218,6 +221,8 @@ namespace JobSearch.Models
 
         }
 
+
+        // Adds the parameters to the sql command for the filtering and sorting
         private static void GetFilterParameters(FilterJobs filter, SqlCommand getCommand)
         {
             if (filter != null)
@@ -237,21 +242,22 @@ namespace JobSearch.Models
             }
         }
 
+        // Adds the different query options to the string
         private static string getFiltersSqlString(FilterJobs filter, string sqlString)
         {
             if (filter != null)
             {
                 if (!String.IsNullOrEmpty(filter.Company))
                 {
-                    sqlString += " AND Company = @Company";
+                    sqlString += " AND Company LIKE '%' + @Company + '%'";
                 }
                 if (!String.IsNullOrEmpty(filter.Location))
                 {
-                    sqlString += " AND Location = @Location";
+                    sqlString += " AND Location LIKE '%' + @Location + '%'";
                 }
                 if (!String.IsNullOrEmpty(filter.Position))
                 {
-                    sqlString += " AND Position = @Position";
+                    sqlString += " AND Position LIKE '%' + @Position + '%'";
                 }
                 if (!String.IsNullOrEmpty(filter.SortBy))
                 {

@@ -37,40 +37,10 @@ namespace JobSearch.Controllers
                 loggedInUser = JsonConvert.DeserializeObject<UserModel>(userKey);
 
             }
-            /*if (loggedInUser != null) 
-            {
-                jobList = jM.GetJobList(loggedInUser.Id, true, out errormsg);
-                deniedList = jM.GetJobList(loggedInUser.Id, false, out errormsg);
-            }*/
-            // Commenting the session lists for the moment as the previous version used sessions to store the lists.
-
-            // Retrieve lists from session in the constructor
-            //string jobListString = _contx.HttpContext.Session.GetString(JobListSessionKey);
-            //string deniedListString = _contx.HttpContext.Session.GetString(DeniedListSessionKey);
-
-            // Checks if the session string is empty or not,
-            // if it is it will create a new list
-            // if the session string isnt empty it will create the list using that
-            /*if (string.IsNullOrEmpty(jobListString))
-            {
-                jobList = new List<JobModel>();
-            }
-            else
-            {
-                jobList = JsonConvert.DeserializeObject<List<JobModel>>(jobListString);
-            }
-            if (string.IsNullOrEmpty(deniedListString))
-            {
-                deniedList = new List<JobModel>();
-            }
-            else
-            {
-                deniedList = JsonConvert.DeserializeObject<List<JobModel>>(deniedListString);
-            }*/
-
-
         }
         
+        // Gets the lists of job applications and sends them to the view using ViewBag
+        // Checks if any filter has been applied or not
         [Route("/Job")]
         public IActionResult Index(FilterJobs filter)
         {
@@ -78,14 +48,12 @@ namespace JobSearch.Controllers
             string error;
             if(filter != null)
             {
-                System.Diagnostics.Debug.WriteLine("Filtered");
                 error = GetLists(filter);
             }
             else
             {
                 error = GetLists();
             }
-            System.Diagnostics.Debug.WriteLine("User id = " + loggedInUser.Id);
             System.Diagnostics.Debug.WriteLine(error);
             if (jobList != null)
             {
@@ -107,6 +75,10 @@ namespace JobSearch.Controllers
             return View();
         }
 
+
+        // Gets the list of job applications both as the ongoing applications and denied applications
+        // checks if a user is logged in or not. If a user is not logged in it wont send for lists and 
+        // simply create new empty lists.
         private string GetLists()
         {
             string errormsg;
@@ -124,6 +96,8 @@ namespace JobSearch.Controllers
             return errormsg;
         }
 
+
+        // Overloaded method which also sends in a filter which will send in sorting and order queries.
         private string GetLists(FilterJobs filter)
         {
             string errormsg;
@@ -166,11 +140,13 @@ namespace JobSearch.Controllers
                 TempData["alreadyInUse"] = "This application already exists";
                 return Redirect("/Job/AddJob");
             }
+            // Checks for a correct date i.e a date not in the future.
             if (job.Date > DateOnly.FromDateTime(DateTime.Now))
             {
                 TempData["dateError"] = "Invalid date";
                 return Redirect("/Job/AddJob");
             }
+            // checks if a user is logged in.
             if(loggedInUser.Id > 0)
             {
                 string errmsg;
@@ -181,15 +157,6 @@ namespace JobSearch.Controllers
                     return Redirect("/Job/AddJob");
                 }
             }
-            /*if (job.Ongoing == true)
-            {
-                jobList.Add(job);
-            }
-            else
-            {
-                deniedList.Add(job);
-            }*/
-            //UpdateSession();
             return Redirect("/Job");
         }
 
@@ -231,7 +198,6 @@ namespace JobSearch.Controllers
         [HttpPost]
         public IActionResult EditJob(JobModel job)
         {
-            System.Diagnostics.Debug.WriteLine("Jobb id: " + job.JobId);
             // Checks if the date is either today or in the past
             // cannot enter a date that is in the future
             if (job.Date > DateOnly.FromDateTime(DateTime.Now))
@@ -250,36 +216,6 @@ namespace JobSearch.Controllers
                     return Redirect("/Job");
                 }
             }
-            // Checks with the job gotten from the ongoing list
-            /* var updatedJob = jobList.Where(j => j.JobId == job.JobId).FirstOrDefault();
-             if (updatedJob != null)
-             {
-                 jobList.Remove(updatedJob);
-                 if (job.Ongoing == true)
-                 {
-                     jobList.Add(job);
-                 }
-                 else
-                 {
-                     deniedList.Add(job);
-                 }
-             }
-
-             // Check with the job item from the denied list
-             var deniedUpdatedJob = deniedList.Where(j => j.JobId == job.JobId).FirstOrDefault();
-             if(deniedUpdatedJob != null)
-             {
-                 deniedList.Remove(deniedUpdatedJob);
-                 if (job.Ongoing == true)
-                 {
-                     jobList.Add(job);
-                 }
-                 else
-                 {
-                     deniedList.Add(job);
-                 }
-             }*/
-            //UpdateSession();
             return Redirect("/Job");
         }
 
